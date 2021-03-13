@@ -4,20 +4,85 @@
 }
 
 .container{
-    margin: 0px;
-    padding: 0px;
+    width: 100%;
+    height: auto;
+    border-top: 100px solid darkorange;
 }
 
 .row{
     width: 100%;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
     background-color: mediumslateblue;
+    
 }
 
-.row.col-30:nth-child(1){
+.row .col-30:nth-child(1){
     width: 30%;
-    background-color: mediumturquoise;
+    /*background-color: mediumturquoise;*/
     padding: 30px;
+    background-image: url("https://lh3.googleusercontent.com/proxy/AzaptnIbPrsk1fGLNC10PArR812UgXZ3VTQdg4iq-AN4DYOSGNT5HOYijvBczyHQA0FzEUj6bvzd2qicD8GBbxDM-y4IKnaDWClPtL0R5tfhufPdd09a");
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    margin: 10px;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: -50px;
+}
+
+.row .col-30:nth-child(2){
+    width: 30%;
+    /*background-color: mediumturquoise;*/
+    padding: 30px;
+    background-image: url("https://imagenes.milenio.com/IjJf3kFgMn4HbCWulHM563r9748=/958x596/smart/https://www.milenio.com/uploads/media/2021/02/26/superman-el-hombre-de-acero_0_1_1080_672.jpeg");
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    margin: 10px;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: -50px;
+}
+
+.row .col-30:nth-child(3){
+    width: 30%;
+    /*background-color: mediumturquoise;*/
+    padding: 30px;
+    background-image: url("https://itspinkandpunk.files.wordpress.com/2015/05/the_flash_dc.jpeg?w=640");
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    margin: 10px;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: -50px;
+}
+
+.row .col-30 h2{
+    text-align: center;
+    font-size: 1rem;
+    color: darkorange;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 8px;
+    margin-block-start: auto;
+}
+
+.row .col-30 button{
+    width: 100%;
+    padding: 10px;
+    font-size: 1.5rem;
+    background-color: darkorange;
+    color: white;
+    border: none;
+    margin-top: 220px;
+    transition: ease-in-out 1s;
+}
+
+.row .col-30 button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
