@@ -15,3 +15,9 @@
     background-color: mediumslateblue;
 }
 
+.row.col-30:nth-child(1){
+    width: 30%;
+    background-color: mediumturquoise;
+    padding: 30px;
+}
+
