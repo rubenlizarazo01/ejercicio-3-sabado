@@ -1,0 +1,17 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    margin: 0px;
+    padding: 0px;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: mediumslateblue;
+}
+
